@@ -2,13 +2,13 @@
 
 * [👋 首页](README.md)
 
-## 安装
+## 安装 <a href="#install" id="install"></a>
 
-* [📱 iOS](an-zhuang/ios/README.md)
-  * [🚲 UTM JIT](an-zhuang/ios/utm-jit.md)
-  * [🦽 UTM SE](an-zhuang/ios/utm-se.md)
-  * [✈ UTM HV](an-zhuang/ios/utm-hv.md)
-* [🖥 macOS](an-zhuang/macos.md)
+* [📱 iOS](install/ios/README.md)
+  * [🚲 UTM JIT](install/ios/utm-jit.md)
+  * [🦽 UTM SE](install/ios/utm-se.md)
+  * [✈ UTM HV](install/ios/utm-hv.md)
+* [🖥 macOS](install/macos.md)
 
 ## 操作
 

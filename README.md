@@ -2,7 +2,7 @@
 
 ### 什么是 UTM？
 
-UTM 是一个可以在 iOS 和 macOS 平台上运行的虚拟机，基于 QEMU。通俗地说，它可以让您在 Mac 甚至 iPhone 、iPad 上运行 Windows、Linux 等操作系统
+UTM 是一个可以在 iOS 和 macOS 平台上运行的虚拟机平台，基于 QEMU。通俗地说，它可以让您在 Mac 甚至 iPhone 、iPad 上运行 Windows、Linux 等操作系统
 
 ### 关于文档
 
