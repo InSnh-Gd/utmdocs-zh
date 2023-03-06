@@ -4,8 +4,8 @@
 
 
 
-{% content-ref url="utm-jit.md" %}
-[utm-jit.md](utm-jit.md)
+{% content-ref url="utm.md" %}
+[utm.md](utm.md)
 {% endcontent-ref %}
 
 UTM （JIT）是 UTM 的主线版本，它使用 TCG（JIT）加速以获得“最佳性能”，iOS 设备上的 JIT 需要设备已经越狱，或者对应您的 iOS 版本的解决方案（有关更多详细信息，请参阅“安装”）。

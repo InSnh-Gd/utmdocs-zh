@@ -5,7 +5,7 @@
 ## 安装 <a href="#install" id="install"></a>
 
 * [📱 iOS](install/ios/README.md)
-  * [🚲 UTM JIT](install/ios/utm-jit.md)
+  * [🚲 UTM](install/ios/utm.md)
   * [🦽 UTM SE](install/ios/utm-se.md)
   * [✈ UTM HV](install/ios/utm-hv.md)
 * [🖥 macOS](install/macos.md)
