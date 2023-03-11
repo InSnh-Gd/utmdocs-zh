@@ -8,19 +8,9 @@
 [utm.md](utm.md)
 {% endcontent-ref %}
 
-UTM （JIT）是 UTM 的主线版本，它使用 TCG（JIT）加速以获得“最佳性能”，iOS 设备上的 JIT 需要设备已经越狱，或者对应您的 iOS 版本的解决方案（有关更多详细信息，请参阅“安装”）。
-
-{% content-ref url="utm-se.md" %}
-[utm-se.md](utm-se.md)
-{% endcontent-ref %}
-
-UTM SE（”缓慢版“），它使用 TCTI TCG 后端，或者说线程解释器 （[threaded interpreter](https://github.com/ktemkin/qemu/blob/with\_tcti/tcg/aarch64-tcti/README.md)），它的性能比即时编译（JIT）慢，但比传统解释器（traditional interpreter）要快。通俗地说，UTM SE 的实际性能比 UTM JIT 要慢，UTM SE 可以像常规应用一样旁加载。
-
-{% content-ref url="utm-hv.md" %}
-[utm-hv.md](utm-hv.md)
-{% endcontent-ref %}
-
-UTM HV（Hypervisor），在满足条件的情况下，UTM HV 可以使用 hvf 虚拟化加速，它将提供无与伦比的仿真性能，但使用要求更为苛刻（有关更多详细信息，请参阅“安装”）。
+* UTM （JIT）是 UTM 的主线版本，它使用 TCG（JIT）加速以获得“最佳性能”，iOS 设备上的 JIT 需要设备已经越狱，或者对应您的 iOS 版本的解决方案（有关更多详细信息，请参阅“安装”）。
+* UTM SE（”缓慢版“），它使用 TCTI TCG 后端，或者说线程解释器 （[threaded interpreter](https://github.com/ktemkin/qemu/blob/with\_tcti/tcg/aarch64-tcti/README.md)），它的性能比即时编译（JIT）慢，但比传统解释器（traditional interpreter）要快。通俗地说，UTM SE 的实际性能比 UTM JIT 要慢，UTM SE 可以像常规应用一样旁加载。
+* UTM HV（Hypervisor），在满足条件的情况下，UTM HV 可以使用 hvf 虚拟化加速，它将提供无与伦比的仿真性能，但使用要求更为苛刻（有关更多详细信息，请参阅“安装”）。
 
 
 
