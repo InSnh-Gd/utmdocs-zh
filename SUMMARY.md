@@ -4,14 +4,14 @@
 
 ## 安装 <a href="#install" id="install"></a>
 
-* [📱 iOS](install/ios/README.md)
-  * [🚲 UTM](install/ios/utm.md)
+* [📱 iOS](install/ios.md)
 * [🖥 macOS](install/macos.md)
 
-## 操作
+## 虚拟机 <a href="#machines" id="machines"></a>
 
-* [主界面](cao-zuo/zhu-jie-mian.md)
-* [控制虚拟机](cao-zuo/kong-zhi-xu-ni-ji.md)
+* [基础操作](machines/basics/README.md)
+  * [设置页面](machines/basics/actions.md)
+  * [工具栏](machines/basics/controls.md)
 
 ## 设置（QEMU 后端）
 
