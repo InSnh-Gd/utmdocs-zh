@@ -10,7 +10,7 @@
 
 </div>
 
-1. 关闭虚拟机，这样将丢失所有未保存的数据，最好的选择是在虚拟机内操作系统中关机。 **(macOS)** 你可以长按此按键来选择其他关机选项。
+1. 关闭虚拟机，这样将丢失所有未保存的数据，最好的选择是在虚拟机内操作系统中关机。 <mark style="color:green;">**(macOS)**</mark> 你可以长按此按键来选择其他关机选项。
    * &#x20;_“关机”_：向虚拟机发送关机请求。就像一台 PC 按下电源键那样。
    * _强制关机_：向 VM 进程发送停止命令，这样会有丢失数据的风险。就像按住 PC 的电源键强制关机那样。这是默认选项。
    * _强制终止_：强行杀死 VM 进程，有很大的概率导致数据损坏。
@@ -23,8 +23,8 @@
 {% endhint %}
 
 3. 重启虚拟机，这样将会丢失所以未保存的数据。
-4. **(macOS)** 捕获鼠标和键盘，使虚拟机独占鼠标键盘。这样您就可以将某些组合键（比如 Cmd+Tab）发送到虚拟机。被捕获后可以通过 [Ctrl+Option 组合键](https://docs.getutm.app/preferences/macos/#use-commandoption-for-input-capturerelease)释放鼠标键盘，释放键鼠后也可以通过同样的组合键再次捕获键鼠。
-5.  **(iOS)**在图形模式下，第一次点击时，虚拟机图像将覆盖全屏。当分辨率变化时，显示画面都会相应地缩放以便覆盖整个屏幕。第二次点击将设置并锁定显示画面缩放倍数为 1x。在终端模式下，第一次点击将发送 [重设大小命令（resize command）](https://docs.getutm.app/settings-qemu/devices/serial/#resize-console-command)，使终端窗口覆盖整个屏幕。
+4. <mark style="color:green;">**(macOS)**</mark> 捕获鼠标和键盘，使虚拟机独占鼠标键盘。这样您就可以将某些组合键（比如 Cmd+Tab）发送到虚拟机。被捕获后可以通过 [Ctrl+Option 组合键](https://docs.getutm.app/preferences/macos/#use-commandoption-for-input-capturerelease)释放鼠标键盘，释放键鼠后也可以通过同样的组合键再次捕获键鼠。
+5.  <mark style="color:purple;">**(iOS)**</mark> 在图形模式下，第一次点击时，虚拟机图像将覆盖全屏。当分辨率变化时，显示画面都会相应地缩放以便覆盖整个屏幕。第二次点击将设置并锁定显示画面缩放倍数为 1x。在终端模式下，第一次点击将发送 [重设大小命令（resize command）](https://docs.getutm.app/settings-qemu/devices/serial/#resize-console-command)，使终端窗口覆盖整个屏幕。
 
     **(macOS)** 这个按钮只在开启终端模式时可用，并与 iOS 上的行为作用一致。
 6. 列出目前连接的 USB 设备，可以选择 USB 设备连接或断开。**(iOS)** UTM 标准构建或 UTM SE 不支持此选项。**(macOS)** 当使用 Apple 虚拟化后端时此选项不可用。如果不支持或[已禁用 USB 共享](https://docs.getutm.app/settings-qemu/input/#usb-sharing)，这个按钮将不可用或消失。

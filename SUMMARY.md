@@ -4,26 +4,29 @@
 
 ## 安装 <a href="#install" id="install"></a>
 
-* [📱 iOS](install/ios.md)
+* [📱 iOS](install/ios/README.md)
 * [🖥 macOS](install/macos.md)
 
-## 虚拟机 <a href="#machines" id="machines"></a>
+## 虚拟机 <a href="#vm" id="vm"></a>
 
-* [基础操作](machines/basics/README.md)
-  * [设置页面](machines/basics/actions.md)
-  * [工具栏](machines/basics/controls.md)
+* [基础操作](vm/basics/README.md)
+  * [设置页面](vm/basics/actions.md)
+  * [工具栏](vm/basics/controls.md)
 
-## 设置（QEMU 后端）
+## 设置 <a href="#settings" id="settings"></a>
 
-* [Page 1](she-zhi-qemu-hou-duan/page-1.md)
+* [QEMU 后端](settings/qemu/README.md)
+  * [设备](settings/qemu/devices/README.md)
+    * [Page 1](settings/qemu/devices/page-1.md)
+  * [驱动器](settings/qemu/devices-1.md)
+* [Apple 后端](settings/apple/README.md)
+  * [引导](settings/apple/boot.md)
+  * [设备](settings/apple/devices.md)
 
-## 设置（Apple 后端）
+## 偏好设置 <a href="#preferences" id="preferences"></a>
 
-* [Page 2](she-zhi-apple-hou-duan/page-2.md)
-
-## 偏好设置
-
-* [Page 3](pian-hao-she-zhi/page-3.md)
+* [iOS](preferences/ios.md)
+* [macOS](preferences/macos.md)
 
 ## 扩展内容
 

@@ -20,7 +20,7 @@
 
  
 
-<figure><img src="../../.gitbook/assets/iphone-getting-started-2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/iphone-getting-started-2.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

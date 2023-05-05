@@ -1,12 +1,12 @@
 # 📱 iOS
 
-* [非越狱设备](ios.md#non-jailbroken-devices)
-  * [AltStore 软件源](ios.md#altstore-ruan-jian-yuan)
-  * [AltStore 旁加载](ios.md#altstore-pang-jia-zai)
-  * [其他方式](ios.md#qi-ta-fang-shi)
-* [TrollStore](ios.md#trollstore)
-* [越狱设备](ios.md#yue-yu-she-bei)
-* [总结](ios.md#zong-jie)
+* [非越狱设备](./#non-jailbroken-devices)
+  * [AltStore 软件源](./#altstore-ruan-jian-yuan)
+  * [AltStore 旁加载](./#altstore-pang-jia-zai)
+  * [其他方式](./#qi-ta-fang-shi)
+* [TrollStore](./#trollstore)
+* [越狱设备](./#yue-yu-she-bei)
+* [总结](./#zong-jie)
 
 越狱与非越狱环境下，UTM 的兼容性不同，如果越狱，UTM 可以在 iOS11+ 的设备运行，UTM 也可以在非越狱设备上通过[“开发者调试”](https://github.com/osy/Jitterbug)的方式运行，兼容性取决于您设备的硬件新旧以及 iOS 版本，并且 UTM 有多个分支提供了不同的兼容性和特性，详细信息参见以下内容。
 
@@ -28,7 +28,7 @@
 
 ## 非越狱设备 <a href="#non-jailbroken-devices" id="non-jailbroken-devices"></a>
 
-**如果您的设备系统版本是 iOS11～13：**那么 **** UTM 不需要越狱即可使用，您只需要旁加载 UTM。当然也可以使用开发者账户的证书签名 UTM 的 IPA 即可在未越狱的 iOS 设备安装使用。但您需要知道旁加载有以下缺点：
+**如果您的设备系统版本是 iOS11～13：**那么 UTM 不需要越狱即可使用，您只需要旁加载 UTM。当然也可以使用开发者账户的证书签名 UTM 的 IPA 即可在未越狱的 iOS 设备安装使用。但您需要知道旁加载有以下缺点：
 
 * 免费开发者帐户必须每 7 天重新签名一次
 * 付费开发者帐号必须每 1 年重新签名一次
